@@ -29,7 +29,7 @@
   --fs-500: 1rem; 
  --fs-600: 1.125rem;
   --fs-700:  1.875rem;
-  --fs-800: 2rem;
+  --fs-800: 3rem;
 
 
   --fs-body: var(--fs-500); 
@@ -123,7 +123,7 @@ color: var(--clr-primary-750);
 }
 
 .neutral-color-text-100{
-  --clr-neutral-100:hsl(0, 0%, 100%) 
+  color: var(--clr-neutral-100)
 }
 .neutral-color-text-300{
   color: var(--clr-neutral-300);
@@ -177,4 +177,14 @@ color: var(--clr-primary-750);
 }
 .fs-600{
   font-size: var(--fs-600);
+}
+.underline{
+  display: inline-block;
+}
+.underline::after{
+  content: '';
+  height: 4px;
+  border-radius: 5px;
+  display: block;
+  margin-top: -10px;
 }
