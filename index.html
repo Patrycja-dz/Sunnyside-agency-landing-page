@@ -1,18 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
 
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Vite App</title>
+</head>
+
+<body>
+  <header class="primary-header">
+    <div class="container">
+      <a href="#">sunnyside</a>
+      <nav class="primary-navigation">
+        <ul role="list" class="nav-list" aria-label="Primary">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+        </ul>
+      </nav>
+      <button class="button">Contact</button>
+    </div>
+    <h1 class="fs-primary-heading fw-bold">we are creatives</h1>
+  </header>
+  <main>
+    <section>
+      <div class="container">
+        <div class="even-columns">
+          <div>
+            <h2 class="fs-secondary-heading | neutral-color-text-900 | fw-semi-bold">Transform your brand</h2>
+            <p class="fs-body neutral-color-text-500 fw-semi-bold">
+              We are a full-service creative agency specializing in helping brands grow fast.
+              Engage your clients through compelling visuals that do most of the marketing for you.</p>
+            <a href="#" class="underline bg-accent-400">learn more</a>
+          </div>
+          <div><img src="./images/desktop/image-transform.jpg" alt=""></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="even-columns">
+          <div><img src="./images/desktop/image-stand-out.jpg" alt=""></div>
+          <div>
+            <h2 class="fs-secondary-heading | neutral-color-text-900 | fw-semi-bold">
+              Stand out to the right audience</h2>
+            <p> Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters,
+              we’ll build and extend your brand in digital places. </p>
+            <a href="#" class="underline bg-accent-400">learn more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="even-columns">
+          <div>
+            <h3> Graphic design</h3>
+            <p> Great design makes you memorable. We deliver artwork that underscores your brand message and captures
+              potential clients’ attention.</p>
+          </div>
+          <div>
+            <h3> Photography</h3>
+            <p> Increase your credibility by getting the most stunning, high-quality photos that improve your business
+              image.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="carousel">
+     <h3>
+      Client testimonials</h3>
+      <!--carousel here-->
+    </section>
+
+    <section class="gallery">
+      <!--gallery here-->
+    </section>
+  </main>
+  <footer class="footer-bg-color | footer-primary-color-text">
+    <a href="#">sunnyside</a>
+    <div>
+      <nav>
+        <ul aria-label="Footer" role="list">
+           <li><a href="#">About</a></li>
+           <li><a href="#">Services</a></li>
+           <li><a href="#">Projects</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div>
+      <ul role="list" aria-label="social links">
+        <li><a href="#" aria-label="facebook"></a></li>
+        <li><a href="#" aria-label="instagram"></a></li>
+        <li><a href="#" aria-label="twitter"></a></li>
+        <li><a href="#" aria-label="pinterest"></a></li>
+      </ul>
+    </div>
+  </footer>
+  <script type="module" src="/main.js"></script>
+</body>
+
 </html>
